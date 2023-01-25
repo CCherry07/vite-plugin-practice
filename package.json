@@ -1,7 +1,7 @@
 {
-  "name": "plugins",
+  "name": "vite-plugin-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "vite-plugin-practice",
   "main": "index.js",
   "scripts": {
     "dev": "vite",

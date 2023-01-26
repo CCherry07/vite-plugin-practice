@@ -8,26 +8,26 @@
 
 ### 1.2. 使用
 
-    1. 安装
+1. 安装
 
-    ```bash
-    npm i create-html-plugin -D
-    ```
+```bash
+npm i create-html-plugin -D
+```
 
-    2. 配置
+2. 配置
 
-    ```js
-    import CreateHtmlPlugin from 'create-html-plugin'
-    export default defineConfig({
-      plugins: [
-        CreateHtmlPlugin({
-          inject: {
-            data: {
-              title: 'vite-plugin-practice',
-              description: 'vite-plugin-practice',
-              keywords: 'vite-plugin-practice',
-            },
-          }
-        })]
-      })
-    ```
+```js
+import CreateHtmlPlugin from 'create-html-plugin'
+export default defineConfig({
+  plugins: [
+    CreateHtmlPlugin({
+      inject: {
+        data: {
+          title: 'vite-plugin-practice',
+          description: 'vite-plugin-practice',
+          keywords: 'vite-plugin-practice',
+        },
+      }
+    })]
+  })
+```
